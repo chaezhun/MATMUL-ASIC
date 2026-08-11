@@ -36,7 +36,7 @@ ever stalling the datapath".
 |---|---|
 | Operation | `O = A × B`, 16×16 by 16×16 |
 | Data format | 8-bit two's complement in, 32-bit out, fraction length 0–7 set at run time |
-| Memory | three synchronous SRAMs (AMEM, BMEM, OMEM), 16-bit words |
+| Memory | three synchronous SRAMs — AMEM/BMEM 16b × 128 words, OMEM 32b × 256 words |
 | Arbitration | one status signal (`core_working`) switches ownership between tester and core |
 | Pipeline | one SRAM read stage plus one register between multiply and accumulate |
 | Size | single module, 294 lines, 129 flip-flops |
